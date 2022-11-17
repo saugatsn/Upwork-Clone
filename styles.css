@@ -622,9 +622,6 @@ footer {
   font-weight: bold;
   /* margin-bottom: 0.8rem; */
 }
-.angle-outer-flex {
-  display: none;
-}
 .footer-flex {
   display: flex;
   justify-content: center;
@@ -674,4 +671,7 @@ footer {
 .other-footnote {
   display: flex;
   gap: 1rem;
+}
+.angle-outer-flex {
+  display: none !important;
 }
