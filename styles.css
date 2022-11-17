@@ -432,13 +432,9 @@ li {
   color: black;
   padding: 3rem 2rem;
 }
-/* .image-lady-vector {
-  position: relative;
-  z-index: 0;
-  top: -920px;
-  left: 49%;
-  height: 500px;
-} */
+.image-lady-vector {
+  display: none;
+}
 .fourth-first-container {
   display: flex;
   justify-content: center;
@@ -470,7 +466,7 @@ li {
   margin-bottom: 1.5rem;
 }
 .fourth-title {
-  padding-right: 10rem;
+  padding-right: 5rem;
   font-size: 5rem;
   margin-bottom: 2rem;
 }
@@ -515,9 +511,11 @@ hr {
   display: flex;
   justify-content: center;
   margin-bottom: 5rem;
+  gap: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 .medium-card {
-  margin-right: 2rem;
   border-radius: 10px;
   color: white;
   padding: 2rem;
@@ -557,11 +555,11 @@ hr {
 .ukraine-support {
   display: flex;
   justify-content: center;
-  background: #f2f7f2;
   width: 85vw;
+  background: #f2f7f2;
   border-radius: 10px;
   margin: auto;
-  height: 30vh;
+  padding: 2rem;
   margin-bottom: 5rem;
 }
 .subtitle-ukraine {
@@ -622,9 +620,11 @@ footer {
 .footer-inner-flex div:first-child {
   color: grey;
   font-weight: bold;
-  margin-bottom: 0.8rem;
+  /* margin-bottom: 0.8rem; */
 }
-
+.angle-outer-flex {
+  display: none;
+}
 .footer-flex {
   display: flex;
   justify-content: center;
@@ -669,31 +669,9 @@ footer {
   font-size: 1.2rem;
   display: flex;
   gap: 4rem;
+  font-family: " Nunito sans";
 }
 .other-footnote {
   display: flex;
   gap: 1rem;
-}
-
-@media screen and (min-width: 1080px) {
-  .mobile-nav {
-    display: none;
-  }
-  .nav-mobile-page {
-    display: none;
-  }
-}
-@media screen and (max-width: 1080px) {
-  .two-navs {
-    display: none;
-  }
-  .mobile-nav {
-    padding: 2rem;
-  }
-  .two-navs-outer-box {
-    margin: 0;
-  }
-  .nav-mobile-page {
-    height: 100vh;
-  }
 }
