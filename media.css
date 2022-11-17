@@ -350,4 +350,7 @@
     position: absolute;
     bottom: 3rem;
   }
+  .angle-outer-flex {
+    display: inline-block !important;
+  }
 }
